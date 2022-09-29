@@ -12,9 +12,7 @@ function setphonenumber(){
 function setuseronetimepassword(){
     onetimepassword = $("#onetimepassword").val();
     var valid=passwordRegEx.exec(onetimepassword);
-    if (!valid){
-        alert('Must be 6 digits, upper, lower, number, and symbol');
-    }
+
 }
 
 function setverifypassword(){
